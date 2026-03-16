@@ -12,13 +12,13 @@ Healthcare providers face challenges in quickly and consistently assessing patie
 
 The Health Risk Predictor addresses these challenges through: 
 
-Machine Learning classification for risk prediction 
+1. Machine Learning classification for risk prediction 
 
-Patient profile embeddings for similarity search 
+2. Patient profile embeddings for similarity search 
 
-Natural language explanations for transparency 
+3. Natural language explanations for transparency 
 
-Comprehensive input validation and output guardrails 
+4. Comprehensive input validation and output guardrails 
 
 4. Technical Architecture 
 
@@ -52,13 +52,13 @@ The system converts patient data into dense vector representations, enabling sem
 
 Patients are categorized into four risk levels: 
 
-Low (0-25%): Healthy profile with minimal risk factors 
+1. Low (0-25%): Healthy profile with minimal risk factors 
 
-Moderate (25-50%): Some factors require attention 
+2. Moderate (25-50%): Some factors require attention 
 
-High (50-75%): Multiple elevated risk factors 
+3. High (50-75%): Multiple elevated risk factors 
 
-Critical (75-100%): Immediate attention recommended 
+4. Critical (75-100%): Immediate attention recommended 
 
 5.3 Natural Language Explanations 
 
@@ -68,136 +68,38 @@ Each prediction is accompanied by a human-readable explanation that describes th
 
 The system implements comprehensive safety measures: 
 
-Input Validation: Range and type checking for all patient data 
+1. Input Validation: Range and type checking for all patient data 
 
-Category Validation: Ensures valid options for categorical fields 
+2. Category Validation: Ensures valid options for categorical fields 
 
-Confidence Thresholds: Alerts for low-confidence predictions 
+3. Confidence Thresholds: Alerts for low-confidence predictions 
 
-Feature Importance: Transparent display of contributing factors 
+4. Feature Importance: Transparent display of contributing factors 
 
-6. Input Features 
-
-Feature 
-
-Type 
-
-Description 
-
-Age 
-
-Numeric 
-
-Patient age in years (0-120) 
-
-Gender 
-
-Categorical 
-
-Male or Female 
-
-BMI 
-
-Numeric 
-
-Body Mass Index (10-70) 
-
-Systolic BP 
-
-Numeric 
-
-Systolic blood pressure (70-250 mmHg) 
-
-Diastolic BP 
-
-Numeric 
-
-Diastolic blood pressure (40-150 mmHg) 
-
-Cholesterol 
-
-Numeric 
-
-Total cholesterol level (80-400 mg/dL) 
-
-Glucose 
-
-Numeric 
-
-Blood glucose level (40-400 mg/dL) 
-
-Smoking 
-
-Categorical 
-
-Never, Former, or Current 
-
-Exercise 
-
-Categorical 
-
-None, Light, Moderate, or Heavy 
-
-Family History 
-
-Binary 
-
-Family history of cardiovascular disease 
-
-Diabetes 
-
-Binary 
-
-Diabetes diagnosis 
-
-Heart Disease 
-
-Binary 
-
-Heart disease diagnosis 
-
-7. Sample Assessment Output 
+6. Sample Assessment Output 
 
 For a 55-year-old male patient with BMI 28.5, blood pressure 145/92, cholesterol 245, and former smoking history, the system provides: 
 
-Risk Level: MODERATE 
+1. Risk Level: MODERATE 
 
-Confidence: 68.5% 
+2. Confidence: 68.5% 
 
-Key Factors: Age (significant), Cholesterol (high), Blood Pressure (elevated) 
+3. Key Factors: Age (significant), Cholesterol (high), Blood Pressure (elevated) 
 
-Similar Patients: 3 found with comparable profiles 
+4. Similar Patients: 3 found with comparable profiles 
 
-Explanation: Multiple factors contribute to elevated health risks. Lifestyle modifications recommended. 
+5. Explanation: Multiple factors contribute to elevated health risks. Lifestyle modifications recommended. 
 
-8. Future Enhancements 
+7. Future Enhancements 
 
-Integration with real medical datasets (e.g., MIMIC-III) 
+1. Integration with real medical datasets (e.g., MIMIC-III) 
 
-Deep learning models for improved prediction accuracy 
+2. Deep learning models for improved prediction accuracy 
 
-Real-time monitoring and automated alerts 
+3. Real-time monitoring and automated alerts 
 
-Mobile application for patient self-assessment 
+4. Mobile application for patient self-assessment 
 
-Integration with Electronic Health Records (EHR) systems 
+5. Integration with Electronic Health Records (EHR) systems 
 
-Multi-language support for global deployment 
-
-9. Conclusion 
-
-The Health Risk Predictor provides a comprehensive, explainable approach to health risk assessment. By combining machine learning classification with embedding-based similarity search and natural language explanations, the system delivers actionable insights while maintaining transparency. The built-in guardrails ensure safe, validated output suitable for healthcare applications. 
-
-10. Technical Requirements 
-
-Python 3.8+ 
-
-numpy, pandas 
-
-scikit-learn 
-
-sentence-transformers 
-
-faiss-cpu 
-
-Jupyter Notebook (optional) 
+6. Multi-language support for global deployment 
