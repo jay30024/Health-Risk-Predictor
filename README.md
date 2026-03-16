@@ -12,13 +12,13 @@ Healthcare providers face challenges in quickly and consistently assessing patie
 
 The Health Risk Predictor addresses these challenges through: 
 
-1. Machine Learning classification for risk prediction 
+a. Machine Learning classification for risk prediction 
 
-2. Patient profile embeddings for similarity search 
+b. Patient profile embeddings for similarity search 
 
-3. Natural language explanations for transparency 
+c. Natural language explanations for transparency 
 
-4. Comprehensive input validation and output guardrails 
+d. Comprehensive input validation and output guardrails 
 
 4. Technical Architecture 
 
@@ -52,13 +52,13 @@ The system converts patient data into dense vector representations, enabling sem
 
 Patients are categorized into four risk levels: 
 
-1. Low (0-25%): Healthy profile with minimal risk factors 
+a. Low (0-25%): Healthy profile with minimal risk factors 
 
-2. Moderate (25-50%): Some factors require attention 
+b. Moderate (25-50%): Some factors require attention 
 
-3. High (50-75%): Multiple elevated risk factors 
+c. High (50-75%): Multiple elevated risk factors 
 
-4. Critical (75-100%): Immediate attention recommended 
+d. Critical (75-100%): Immediate attention recommended 
 
 5.3 Natural Language Explanations 
 
@@ -68,24 +68,25 @@ Each prediction is accompanied by a human-readable explanation that describes th
 
 The system implements comprehensive safety measures: 
 
-1. Input Validation: Range and type checking for all patient data 
+a. Input Validation: Range and type checking for all patient data 
 
-2. Category Validation: Ensures valid options for categorical fields 
+b. Category Validation: Ensures valid options for categorical fields 
 
-3. Confidence Thresholds: Alerts for low-confidence predictions 
+c. Confidence Thresholds: Alerts for low-confidence predictions 
 
-4. Feature Importance: Transparent display of contributing factors 
+d. Feature Importance: Transparent display of contributing factors 
+
 
 6. Sample Assessment Output 
 
 For a 55-year-old male patient with BMI 28.5, blood pressure 145/92, cholesterol 245, and former smoking history, the system provides: 
 
-1. Risk Level: MODERATE 
+a. Risk Level: MODERATE 
 
-2. Confidence: 68.5% 
+b. Confidence: 68.5% 
 
-3. Key Factors: Age (significant), Cholesterol (high), Blood Pressure (elevated) 
+c. Key Factors: Age (significant), Cholesterol (high), Blood Pressure (elevated) 
 
-4. Similar Patients: 3 found with comparable profiles 
+d. Similar Patients: 3 found with comparable profiles 
 
-5. Explanation: Multiple factors contribute to elevated health risks. Lifestyle modifications recommended.
+e. Explanation: Multiple factors contribute to elevated health risks. Lifestyle modifications recommended.
