@@ -88,18 +88,4 @@ For a 55-year-old male patient with BMI 28.5, blood pressure 145/92, cholesterol
 
 4. Similar Patients: 3 found with comparable profiles 
 
-5. Explanation: Multiple factors contribute to elevated health risks. Lifestyle modifications recommended. 
-
-7. Future Enhancements 
-
-1. Integration with real medical datasets (e.g., MIMIC-III) 
-
-2. Deep learning models for improved prediction accuracy 
-
-3. Real-time monitoring and automated alerts 
-
-4. Mobile application for patient self-assessment 
-
-5. Integration with Electronic Health Records (EHR) systems 
-
-6. Multi-language support for global deployment 
+5. Explanation: Multiple factors contribute to elevated health risks. Lifestyle modifications recommended.
